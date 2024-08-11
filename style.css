@@ -1,0 +1,38 @@
+@media (hover:hover) and (pointer:fine) {
+    .hover\:bg-zinc-900:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+    }
+
+    .hover\:text-\[\#1D9BF0\]:hover {
+        --tw-text-opacity: 1;
+        color: rgb(29 155 240 / var(--tw-text-opacity));
+    }
+
+    .hover\:underline:hover {
+        text-decoration-line: underline;
+    }
+
+
+    .group:hover .group-hover\:text-\[\#029262\] {
+        --tw-text-opacity: 1;
+        color: rgb(2 146 98 / var(--tw-text-opacity));
+    }
+
+    .group:hover .group-hover\:text-\[\#1D9BF0\] {
+        --tw-text-opacity: 1;
+        color: rgb(29 155 240 / var(--tw-text-opacity));
+    }
+
+    .group:hover .group-hover\:text-\[\#f81880\] {
+        --tw-text-opacity: 1;
+        color: rgb(248 24 128 / var(--tw-text-opacity));
+    }
+    @media (max-width: 1024px) {
+        .max-\[1024px\]\:hover\:bg-black:hover {
+          --tw-bg-opacity: 1;
+          background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+        }
+      }
+
+}
